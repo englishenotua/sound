@@ -1,0 +1,16 @@
+.VideoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.VideoGridItem {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+}
